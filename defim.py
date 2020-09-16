@@ -20,7 +20,7 @@ def menu():
         elif (choice=="6"):
             exchange_keys()
         else:
-            print("choose only 1-5!!!")
+            print("choose only 1-6!!!")
             continue
         if (input("do you want to exit? y/n\n") == "y"):
             break
