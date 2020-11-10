@@ -18,7 +18,7 @@ while True:
             user.click()
 
             text_box = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[2]/div/div[2]')
-            text_box.send_keys("היי " + name + " אם קיבלת את ההודעה סימן שהצלחתי את הפרויקט :)")
+            text_box.send_keys("היי אם קיבלת את ההודעה אז זה אומר שהפרויקט עובד :)")
 
 
             sendbtn = driver.find_element_by_xpath('//*[@id="main"]/footer/div[1]/div[3]')
