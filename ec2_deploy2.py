@@ -24,7 +24,7 @@ elif choice=="2":
     )
 
 elif choice=="3":
-    instances=input("enter the ids of the instances that you want to stop:")
+    instances=input("enter the ids of the instances that you want to destroy:")
     ids = [instances]
     ec2 = boto3.resource('ec2')
 
@@ -35,7 +35,7 @@ elif choice=="4":
     instances=input("enter the ids of the instance that you want to stop:")
     ids = [instances]
     ec2 = boto3.resource('ec2')
-    ec2.instances.filter(InstanceIds = ids).stop() #for stopping an ec2 instance
+    ec2.instances.filter(InstanceIds = ids).stop() 
  
 
 elif choice=="5":
