@@ -20,7 +20,7 @@ elif choice=="2":
         MinCount=1,
         MaxCount=int(input("enter how many instances do you want:\n")),
         InstanceType='t2.micro',
-        KeyName='nir_kp'
+        KeyName=input("enter your keyname:\n")
     )
 
 elif choice=="3":
